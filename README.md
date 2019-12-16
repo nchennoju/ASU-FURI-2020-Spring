@@ -21,6 +21,8 @@ The acceleration data will also be used to verify the velocity data. Considering
 
 All sensors used with the arduino have a noise component with their sensor output. Considering this, it is necessary to use both an analog and digital filter before analyzing data. The analog filter will be based on a RC circuit. The general circuit diagram for an analog filter is as follows:
 
+![img2](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/1st_Order_Lowpass_Filter_RC.svg/2000px-1st_Order_Lowpass_Filter_RC.svg.png)
+
 The values of the capacitor of the resistor and capacitor can be varied to provide different levels of filtration. These values should be based on the frequency at which data is read. The formula used to determine the values of the resistor and capacitor is as follows: The only problem with the following filter is that it can only be used for the pitot and thrust sensor. Considering that the GPS and accelerometer/gyro consists of signals that are interpreted differently by a separate on board library, a form a digital filtration will be have to be used in addition to the analog filter. This digital filter will be implemented via a separate program that is run postflight. Some characteristics of this digital filter is to incorporate different levels of filters that eliminate unwanted oscillations. Some example filters are:
 Moving Average: value = average of last n values
 Derivative Threshold: values that are only within a certain threshold will be added to the .txt file
