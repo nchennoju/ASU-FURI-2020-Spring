@@ -1,6 +1,8 @@
 # ASU-FURI-2020-Spring
 Propulsion Data Acquisition          ASU FURI project. Second Semester Freshman.
 
+![img1](https://github.com/nchennoju/ASU-FURI-2020-Spring/blob/master/pcb1.JPG)
+
 Objective:
 
 The objective of this FURI research project is to examine the thrust potential of an aircraft at different airspeeds. This project will be expanding on another student’s previous research project, but will incorporate more accurate data filtration and collection methods with multiple sensors on board to verify results. The main objective is to collect data relevant to aircraft performance. With the data collected, aircrafts can be efficiently tuned in throttling power which could be used to maximize an aircraft’s range.
