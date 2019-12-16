@@ -44,6 +44,8 @@ Expected Outcomes:
 
 At the end of this project, I am expecting to have developed a tool that can be used to optimize and aircraft's throttling of power in order to increase range. By the time all the data is collected, the tools used to collect data will be developed enough to provide accurate sensor data while being connected through an interface that will display data in a clean and organized fashion. Based on my hypothesis, I am looking forward to seeing the thrust potential of the propulsion device of a propellor decrease as airspeed increases.
 
+![img3](https://github.com/nchennoju/ASU-FURI-2020-Spring/blob/master/Prog1.jpg)
+
 Bibliography:
 
 https://furi.engineering.asu.edu/furiproject/data-enabled-dynamic-thrust-measurement/
